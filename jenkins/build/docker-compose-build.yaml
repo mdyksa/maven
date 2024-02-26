@@ -3,6 +3,7 @@ services:
   app:
     image: "maven:$BUILD_TAG"
     build:
+      context: .
       dockerfile: Dockerfile-java
 
 
